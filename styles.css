@@ -1,0 +1,187 @@
+/*RESETEO*/
+* {
+    padding: 0;
+    margin: 0;
+}
+/*CUERPO Y LETRA*/
+body {
+    background-color: #eaf5cc;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*MEDIA QUERIES*/
+
+@media(max-width:575px){
+    .logo{
+        height: 100px;
+        
+    }
+    #imagen1c{
+        height: 200px;
+        
+    }
+    #imagenc{
+        display: flex;
+        justify-content: center;
+    }
+    #barra{
+        font-size: 12px;
+        border: solid;
+        border-radius: 5px;
+        background-color: #f6f7f2;
+    }
+    .contenido{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        
+        
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    #imagenc{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    #imagenc{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width:992px){
+    #imagenc{
+        display: flex;
+        justify-content: center;
+    }
+    #imagen1c{
+        height: 500px;
+        
+    }
+    .logo{
+        
+        background-color: rgb(255, 255, 255);
+        border: solid;
+        border-radius: 100px;
+    }
+    .contenido{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        
+        
+    }
+    .imagen2{
+        width: 600;
+    }
+}
+
+
+
+
+
+/*GENERALES*/
+h1 {
+    padding: 20px;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+
+p {
+    padding: 10px;
+}
+
+.texto {
+    text-align: left;
+    padding: 10px;
+
+}
+
+.imagen1 {
+    background-color: rgb(245, 242, 197);
+    text-align: center;
+}
+
+.imagen2 {
+    display: inline;
+
+}
+
+.logo {
+    width: 400px;
+
+}
+/*MENU DE NAVEGACION*/
+nav {
+    float: right;
+    margin-left: auto;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+header {
+    display: flex;
+    align-items: center
+}
+
+nav ul li a {
+    color: rgb(7, 8, 6);
+    text-decoration: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 5px;
+    transition: all 0.9s;
+    border-radius: 8px;
+}
+
+nav ul li:hover {
+    background: #c7d66e;
+    padding: 0px 0px 10px 0px;
+
+}
+
+/*ARTICULO DEL INICIO*/
+.contenido {
+    display: flex;
+    padding: 20px;
+    border: solid;
+    border-radius: 10px;
+}
+
+/*PIE DE PAGINA*/
+footer {
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    color: aliceblue;
+}
+
+footer div ul li {
+    float: left;
+    padding: 5px;
+    list-style: none;
+}
+
+.pie-pagina {
+    float: right;
+    margin-left: auto;
+    padding: 20px;
+
+}
